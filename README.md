@@ -9,11 +9,6 @@ This FastAPI-based application uses a **T5 transformer model** to generate text 
 - Supports GPU acceleration (if available).
 - RESTful API with FastAPI.
 
----
-
-
----
-
 ## 📚 Prerequisites
 
 Ensure you have the following installed:
@@ -38,7 +33,6 @@ Ensure you have the following installed:
 ```bash
 git clone https://github.com/Text-Summarize/backend-app.git
 cd backend-app
-
 
 
 ### 1. Clone the Repository
