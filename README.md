@@ -11,16 +11,34 @@ This FastAPI-based application uses a **T5 transformer model** to generate text 
 
 ---
 
+
+---
+
 ## 📚 Prerequisites
 
 Ensure you have the following installed:
 
-- Python 3.10+
-- MongoDB (running instance)
-- Git
-- (Optional) CUDA for GPU acceleration
+| Tool                      | Purpose                         | Installation Command                            |
+|---------------------------|----------------------------------|-----------------------------------------------|
+| **Python 3.10+**          | Required to run FastAPI & model  | [Download Python](https://www.python.org)    |
+| **MongoDB**               | Stores summaries                | [MongoDB Installation Guide](https://www.mongodb.com/docs/manual/installation/) |
+| **Git**                   | Version control                 | [Download Git](https://git-scm.com/)         |
+| **CUDA (Optional)**       | GPU Acceleration for Torch       | [Install CUDA](https://developer.nvidia.com/cuda-downloads) |
+| **Uvicorn**               | FastAPI ASGI server              | `pip install uvicorn`                        |
+| **Transformers**          | Hugging Face transformer models  | `pip install transformers`                   |
+| **Torch**                 | Deep learning framework          | `pip install torch`                          |
+| **python-dotenv**         | Manage environment variables     | `pip install python-dotenv`                  |
 
 ---
+
+## 🔧 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Text-Summarize/backend-app.git
+cd backend-app
+
 
 
 ### 1. Clone the Repository
