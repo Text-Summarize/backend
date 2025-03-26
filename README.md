@@ -1,6 +1,8 @@
 # 📝 Text Summarization API
 
 This FastAPI-based application uses a **T5 transformer model** to generate text summaries. It supports summarizing text inputs and stores previous summaries in a MongoDB collection.
+### run
+- pip install fastapi transformers torch uvicorn
 
 ## 🚀 Features
 
